@@ -13,7 +13,6 @@ function update() {
             eval(`${element} = 0`);
         }
     }
-    console.log('updated: ', manha, tarde, pate, noite)
 
     loading();
     fetch('/api', { 
@@ -111,7 +110,6 @@ function loadMain() {
                 document.querySelector('#tarde').value = tarde; 
                 document.querySelector('#pate').value = pate; 
                 document.querySelector('#noite').value = noite; 
-                console.log('initial: ', manha, tarde, pate, noite)
             } catch(e) {
                 console.error(e);
                 loadMessage('Algum erro aconteceu, Tente novamente mais tarde.');
@@ -193,7 +191,6 @@ function readCookies(cookies) {
 
 const cookies = readCookies();
 let manha = 0, tarde = 0, pate = 0, noite = 0;
-console.log('person', cookies.person ?? '0');
 if(cookies.person) {
     loadMain();
 } else {
