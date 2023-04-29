@@ -1,0 +1,15 @@
+{
+    "name": "rafael/p-jadeicomida",
+    "autoload": {
+        "psr-4": {
+            "Rafael\\PJadeicomida\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Marques Campos",
+            "email": "Markesxd@gmail.com"
+        }
+    ],
+    "require": {}
+}

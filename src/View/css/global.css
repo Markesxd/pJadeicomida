@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 1rem
+}
+
+.checkList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+}
+
+.larger {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+
+.botaoNav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.botao {
+    font-size: 3.5rem;
+}
+
+.loadingWrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.bar_icon {
+    margin: 0.5rem 0 0 0.5rem;
+    width: 1.5rem;
+}
+
+.menu {
+    background: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-right: 2rem;
+    height: 100vh;
+    border-right: 1px solid #cecece;
+}
+
+.menu_title {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.menu_info {
+    margin-left: 2rem;
+    font-size: 1.7rem;
+}
+
+.botao {
+    background: #cecece;
+    padding: 1rem;
+    border: 1px solid #cecece;
+    border-radius: 10rem;
+}
+
+.botao:active {
+    background: #e8e8e8;
+}
+
+.menu_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
