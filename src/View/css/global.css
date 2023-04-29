@@ -95,7 +95,7 @@ table {
 
 .bar_icon {
     margin: 0.5rem 0 0 0.5rem;
-    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .menu {
@@ -131,6 +131,11 @@ table {
 
 .menu_nav {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_subnav {
     display: flex;
     justify-content: space-between;
 }
